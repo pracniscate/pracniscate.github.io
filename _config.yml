@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Web Dev Blog
 header-img: img/home-bg.png
 email: lorena.giddens@outlook.com
 copyright_name: pracniscate
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My Personal Learn.co Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  pracniscate
