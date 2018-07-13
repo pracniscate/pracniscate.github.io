@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Puzzled, Stuck, Frustrated; Achieved: CLI Project"
-date:       2018-07-13 04:28:53 +0000
+date:       2018-07-13 00:28:53 -0400
 permalink:  puzzled_stuck_frustrated_achieved_cli_project
 ---
 
@@ -42,7 +42,7 @@ While scraping summaries, I had a frustrating moment getting this `404 OpenURI::
 
 It still did not work. No matter how much I fancied the library.
 
-Well, the problem was rooted within the links, something I didn't check. See, instead of calling `Nokogiri::HTML(open("https://www.bookdepository.com/bestbooksever#{url}"))`, I needed to omit the `bestbooksever` part because those books exit in the base url, `https://www.bookdepository.com` plus the specific name for each book.
+Well, the problem was rooted within the links, something I didn't check. See, instead of calling `Nokogiri::HTML(open("https://www.bookdepository.com/bestbooksever#{url}"))`, I needed to omit the `bestbooksever` part because those books exist in the base url, `https://www.bookdepository.com` plus the specific name for each book.
 
 And now, back to the joy of having coded my first app! Yay!!
 
