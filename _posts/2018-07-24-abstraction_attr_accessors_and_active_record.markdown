@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Abstraction: attr_accessors & Active Record"
-date:       2018-07-25 01:54:01 +0000
+date:       2018-07-24 21:54:02 -0400
 permalink:  abstraction_attr_accessors_and_active_record
 ---
 
@@ -95,4 +95,4 @@ By iterating over the `column_names` class method and setting an `attr_accessor`
 
 And the next level of abstraction comes... in a form of library! And it is called Active Record. With the help of this Ruby gem, we get access to the base methods like `.column_names`, `.create`, `.find`, `.save`, and many more. We can **C**reate, **R**ead, **U**pdate and **D**elete (CRUD), i.e., operate on and manipulate data much easier and faster. And it is universal!
 
-(Well, at least, for Ruby it is!)
+(Well, at least, in Ruby it is!)
