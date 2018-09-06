@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra MVC project"
-date:       2018-09-06 00:35:37 +0000
+date:       2018-09-05 20:35:38 -0400
 permalink:  sinatra_mvc_project
 ---
 
@@ -46,7 +46,7 @@ use AnimalsController
 run ApplicationController
 ```
 
-...and was getting an error for undefined `AnimalsController`. So, to fix this, I required the controller files with `require_relative '../app/controllers/[controller_name]'`, which fixed the problem - only temporarily. I had to again dive deep into my search engine, and finally figure out that the order matters. My solution was to rename my `animals_controller` to `ex_animal_controller`, to give preference to my general `ApplicationController`, which was the one I chose to run.
+...and was getting an error for undefined `AnimalsController`. So, to fix this, I required the controller files with `require_relative '../app/controllers/[controller_name]'`, which fixed the problem - only temporarily. I had to again dive deep into my search engine, and finally figure out that the order matters. My solution was to rename my `animals_controller` to `ex_animals_controller`, to give preference to my general `ApplicationController`, which was the one I chose to run.
 
 Then, another issue I had was not being able to sign up or log in. I was going back and forth from one form to another. I attended a couple study groups, and it turned out that I was missing `name="password"` for both my forms! Which, subsequently, meant that I was getting the value of `nil` because I was not calling my input by what it was meant to be - its name - password!
 
