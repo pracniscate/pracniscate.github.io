@@ -1,15 +1,14 @@
 # Site settings
-title: Web Dev Blog
+author: Lorena Giddens
+title: Journey Through Code
 header-img: img/home-bg.png
 email: lorena.giddens@outlook.com
-copyright_name: pracniscate
+copyright_name: Lorena Giddens
 description: > # this means to ignore newlines until "baseurl:"
-  My Personal Learn.co Blog
+  & code through the journey
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  pracniscate
-learn_profile: pracniscate
-email_username: lorena.giddens@outlook.com
 
 # Build settings
 markdown: kramdown
