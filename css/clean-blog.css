@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Righteous', cursive;
   font-weight: normal;
   line-height: 1;
   text-shadow: 4px 4px 4px #aaa;
@@ -171,7 +171,7 @@ hr.small {
   margin-top: 0;
   font-size: 50px;
 }
-.intro-header .site-heading .subheading,
+.intro-header .site-heading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
   line-height: 1.1;
@@ -179,6 +179,11 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+}
+
+.subheading {
+  text-shadow: 3px 1px 1px #5e2985;
+  font-family: 'Chakra Petch';
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
