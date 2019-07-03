@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Life Struck"
-# date:       2019-07-03 07:17:00 +0000 
+date:       2019-07-03 07:17:00 +0000 
 permalink:  life_struck
 ---
 
